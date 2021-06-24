@@ -1,3 +1,132 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/logo/time.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  height: 30px;
+}
+.timer {
+  width: 80%;
+  margin: 80px 10%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.timer-item1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-item2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputButton {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.inputButton:hover {
+  background-color: black;
+  color: white;
+}
+.timer-item3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.displayTimer {
+  width: 210px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  transition: 0.2s;
+  background-color: white;
+  cursor: pointer;
+}
+.displayTimer:hover {
+  background-color: black;
+  color: white;
+}
+
+.timer-item4 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 0 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+.start {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: red;
+  color: white;
+}
+.start:hover {
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+.stop {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: blue;
+  color: white;
+}
+.stop:hover {
+  background-color: rgb(255, 255, 255);
+  color: blue;
+}
+.reset {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  transition: 0.3s;
+}
+.reset:hover {
+  background-color: rgb(255, 255, 255);
+  color: orange;
 }
