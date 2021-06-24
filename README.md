@@ -17,7 +17,7 @@ _The setInterval() method, offered on the Window and Worker interfaces, repeated
 
 * WebSite Link
 
-    * [Timer]()
+    * [Timer]( https://karlennersisyan.github.io/Timer/)
 
 ### Creator
 _Karlen Nersisyan_
